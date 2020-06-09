@@ -40,6 +40,9 @@ public class Main {
                 SentimentAnalyzer.sentimentAnalyse(status.getText());
                 System.out.println("=========");
             }
+            Scanner scanner1 = new Scanner(System.in);
+            String input1 = scanner.nextLine();
+            System.out.println("How are you feeling? Tweet with which sentiment do you want to see?:");
         } catch (TwitterException e) {
             e.printStackTrace();
         }

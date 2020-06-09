@@ -6,7 +6,10 @@ import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.util.CoreMap;
+import twitter4j.Status;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 public class SentimentAnalyzer {
@@ -29,4 +32,16 @@ public class SentimentAnalyzer {
         Document doc = new Document(tweet);
         System.out.println("#1 " + tweet + ": " + doc.sentences().size());
     }
+    public static List<Status> filterTweetsBasedOnSentiment(SentimentValue sentiment, List<Status> tweets) {
+        ArrayList<Status> result = new ArrayList<Status>();
+        for (Status tweet : tweets) {
+            if (getSentiment(tweet.getText()) == sentiment) {
+                result.add(tweet);
+            }
+        }
+        return result;
+    }
+    /*private static List<Status> searchTweets(String query) {
+        return 0;
+    }*/
 }
