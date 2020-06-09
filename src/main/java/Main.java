@@ -23,6 +23,7 @@ public class Main {
                 .setOAuthConsumerSecret("YKiPXe6sY4uHnEKVSPsDU5aOV8JNUijKf3V4qPr9juRkn5FOJm")
                 .setOAuthAccessToken("143509053-OSU1SOsrfWXXpyDblNv8s26dUBKapvFvCReZJ8pc")
                 .setOAuthAccessTokenSecret("ZwZU7j0Ac5VozEgoFTXHdWAmr5FKfuleaIuvDgAoclRqP");
+        System.out.println("Please enter a #Hashtag:");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         TwitterFactory tf = new TwitterFactory(cb.build());
@@ -30,14 +31,14 @@ public class Main {
 
         // The factory instance is re-useable and thread safe.
         try {
-            System.out.println("Please enter a #Hashtag:");
+
             Query query = new Query(input);
             QueryResult result = twitter.search(query);
             List<Status> statuses = result.getTweets();
             System.out.println("Showing home timeline.");
             for (Status status : statuses) {
-                SentimentAnalyzer.analyzeTweet(status.getText());
-                SentimentAnalyzer.sentimentAnalyse(status.getText());
+                //SentimentAnalyzer.analyzeTweet(status.getText());
+                //SentimentAnalyzer.sentimentAnalyse(status.getText());
                 SentimentAnalyzer.filterTweetsBasedOnSentiment(SentimentValue.fromValue(1), statuses);
                 System.out.println("=========");
             }
