@@ -38,6 +38,7 @@ public class Main {
             for (Status status : statuses) {
                 SentimentAnalyzer.analyzeTweet(status.getText());
                 SentimentAnalyzer.sentimentAnalyse(status.getText());
+                SentimentAnalyzer.filterTweetsBasedOnSentiment(SentimentValue.fromValue(1), statuses);
                 System.out.println("=========");
             }
             Scanner scanner1 = new Scanner(System.in);

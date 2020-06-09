@@ -3,7 +3,7 @@ import twitter4j.Status;
 import java.util.ArrayList;
 import java.util.List;
 
-class TwitterAnalyzer {
+/*class TwitterAnalyzer {
 
 
 
@@ -12,4 +12,4 @@ class TwitterAnalyzer {
         String word;
         return word;
     }
-}
+}*/

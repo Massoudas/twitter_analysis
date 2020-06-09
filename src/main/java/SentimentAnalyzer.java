@@ -35,7 +35,7 @@ public class SentimentAnalyzer {
     public static List<Status> filterTweetsBasedOnSentiment(SentimentValue sentiment, List<Status> tweets) {
         ArrayList<Status> result = new ArrayList<Status>();
         for (Status tweet : tweets) {
-            if (getSentiment(tweet.getText()) == sentiment) {
+            if (sentimentAnalyse(tweet.getText()) == sentiment) {
                 result.add(tweet);
             }
         }
