@@ -19,10 +19,10 @@ public class TwitterAnalyzer {
     static Twitter config(){
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("YKE6GZQQb30QL1VmkNGZ9PDuc")
-                .setOAuthConsumerSecret("YKiPXe6sY4uHnEKVSPsDU5aOV8JNUijKf3V4qPr9juRkn5FOJm")
-                .setOAuthAccessToken("143509053-OSU1SOsrfWXXpyDblNv8s26dUBKapvFvCReZJ8pc")
-                .setOAuthAccessTokenSecret("ZwZU7j0Ac5VozEgoFTXHdWAmr5FKfuleaIuvDgAoclRqP")
+                .setOAuthConsumerKey("*******************")
+                .setOAuthConsumerSecret("*******************************")
+                .setOAuthAccessToken("*********************************")
+                .setOAuthAccessTokenSecret("********************")
                 .setTweetModeExtended(true);
 
 

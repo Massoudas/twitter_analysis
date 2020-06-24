@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55f04fb9-c08d-4389-90cb-d863a9ac5681" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TwitterGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/twitter_analysis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TwitterAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwitterAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/twitter_analysis.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwitterAnalyzer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +55,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -179,6 +175,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="72" key="#Main/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591964027883" />
+    <state x="463" y="30" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1592986079433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="30" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1366.728@0.0.1366.728" timestamp="1592986079433" />
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591614036482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,9 +248,10 @@
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591696819690" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591634444461" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1591641485900">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="246" y="0" key="SettingsEditor" timestamp="1592985930128">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="246" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592985930128" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591641485900" />
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591635614431" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1591637346126">
@@ -270,9 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591696842544" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591798286235">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="514" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592986113693">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="514" y="292" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1592986113693" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591798286235" />
     <state x="209" y="115" key="new project wizard" timestamp="1591205275480">
       <screen x="0" y="0" width="1536" height="824" />
